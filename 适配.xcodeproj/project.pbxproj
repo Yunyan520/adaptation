@@ -15,6 +15,7 @@
 		61737FB21B6AFD130092F3BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61737FB01B6AFD130092F3BB /* LaunchScreen.xib */; };
 		61737FBE1B6AFD130092F3BB /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61737FBD1B6AFD130092F3BB /* __Tests.m */; };
 		6175C7E91F2AC52F00ED3D0B /* MyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6175C7E71F2AC52F00ED3D0B /* MyFrame.m */; };
+		6177E5C21F2EBCF3005CE65B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6177E5C11F2EBCF3005CE65B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		6175C7E61F2AC52F00ED3D0B /* MyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFrame.h; sourceTree = "<group>"; };
 		6175C7E71F2AC52F00ED3D0B /* MyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFrame.m; sourceTree = "<group>"; };
 		6175C7E81F2AC52F00ED3D0B /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		6177E5C01F2EBCF3005CE65B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6177E5C11F2EBCF3005CE65B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				61737FA61B6AFD130092F3BB /* AppDelegate.m */,
 				61737FA81B6AFD130092F3BB /* ViewController.h */,
 				61737FA91B6AFD130092F3BB /* ViewController.m */,
+				6177E5C01F2EBCF3005CE65B /* RootViewController.h */,
+				6177E5C11F2EBCF3005CE65B /* RootViewController.m */,
 				6175C7E61F2AC52F00ED3D0B /* MyFrame.h */,
 				6175C7E71F2AC52F00ED3D0B /* MyFrame.m */,
 				6175C7E81F2AC52F00ED3D0B /* Screen.h */,
@@ -230,6 +235,7 @@
 				6175C7E91F2AC52F00ED3D0B /* MyFrame.m in Sources */,
 				61737FA71B6AFD130092F3BB /* AppDelegate.m in Sources */,
 				61737FA41B6AFD130092F3BB /* main.m in Sources */,
+				6177E5C21F2EBCF3005CE65B /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
