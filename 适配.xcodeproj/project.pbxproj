@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615CF08B1F31D0A000C2B1DA /* GYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CF0891F31D0A000C2B1DA /* GYFrame.m */; };
 		61737FA41B6AFD130092F3BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61737FA31B6AFD130092F3BB /* main.m */; };
 		61737FA71B6AFD130092F3BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61737FA61B6AFD130092F3BB /* AppDelegate.m */; };
 		61737FAA1B6AFD130092F3BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61737FA91B6AFD130092F3BB /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		61737FAF1B6AFD130092F3BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61737FAE1B6AFD130092F3BB /* Images.xcassets */; };
 		61737FB21B6AFD130092F3BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61737FB01B6AFD130092F3BB /* LaunchScreen.xib */; };
 		61737FBE1B6AFD130092F3BB /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61737FBD1B6AFD130092F3BB /* __Tests.m */; };
-		6175C7E91F2AC52F00ED3D0B /* GYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6175C7E71F2AC52F00ED3D0B /* GYFrame.m */; };
 		6177E5C21F2EBCF3005CE65B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6177E5C11F2EBCF3005CE65B /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		615CF0881F31D0A000C2B1DA /* GYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYFrame.h; sourceTree = "<group>"; };
+		615CF0891F31D0A000C2B1DA /* GYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYFrame.m; sourceTree = "<group>"; };
+		615CF08A1F31D0A000C2B1DA /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
 		61737F9E1B6AFD130092F3BB /* 适配.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "适配.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61737FA21B6AFD130092F3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61737FA31B6AFD130092F3BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,9 +45,6 @@
 		61737FB71B6AFD130092F3BB /* 适配Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "适配Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61737FBC1B6AFD130092F3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61737FBD1B6AFD130092F3BB /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
-		6175C7E61F2AC52F00ED3D0B /* GYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYFrame.h; sourceTree = "<group>"; };
-		6175C7E71F2AC52F00ED3D0B /* GYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYFrame.m; sourceTree = "<group>"; };
-		6175C7E81F2AC52F00ED3D0B /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
 		6177E5C01F2EBCF3005CE65B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		6177E5C11F2EBCF3005CE65B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,9 +94,9 @@
 				61737FA91B6AFD130092F3BB /* ViewController.m */,
 				6177E5C01F2EBCF3005CE65B /* RootViewController.h */,
 				6177E5C11F2EBCF3005CE65B /* RootViewController.m */,
-				6175C7E61F2AC52F00ED3D0B /* GYFrame.h */,
-				6175C7E71F2AC52F00ED3D0B /* GYFrame.m */,
-				6175C7E81F2AC52F00ED3D0B /* Screen.h */,
+				615CF0881F31D0A000C2B1DA /* GYFrame.h */,
+				615CF0891F31D0A000C2B1DA /* GYFrame.m */,
+				615CF08A1F31D0A000C2B1DA /* Screen.h */,
 				61737FAB1B6AFD130092F3BB /* Main.storyboard */,
 				61737FAE1B6AFD130092F3BB /* Images.xcassets */,
 				61737FB01B6AFD130092F3BB /* LaunchScreen.xib */,
@@ -231,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615CF08B1F31D0A000C2B1DA /* GYFrame.m in Sources */,
 				61737FAA1B6AFD130092F3BB /* ViewController.m in Sources */,
-				6175C7E91F2AC52F00ED3D0B /* GYFrame.m in Sources */,
 				61737FA71B6AFD130092F3BB /* AppDelegate.m in Sources */,
 				61737FA41B6AFD130092F3BB /* main.m in Sources */,
 				6177E5C21F2EBCF3005CE65B /* RootViewController.m in Sources */,
